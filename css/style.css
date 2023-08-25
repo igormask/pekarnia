@@ -1,0 +1,46 @@
+.body{
+
+}
+.header{
+
+}
+
+.header-menu{
+font-family: Inter;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main-menu{
+}
+
+.hero{
+    font-family: Inter;
+        font-size: 70px;
+        font-weight: 200;
+        line-height: 85px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.title{
+    font-family: Inter;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.hero-button{
+    font-family: Inter;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+    background: #B47B48;
+}
