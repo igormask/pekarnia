@@ -44,3 +44,24 @@ font-family: Inter;
         text-align: left;
     background: #B47B48;
 }
+
+.for-sale1{
+width: 310px;
+    height: 225px;
+    flex-shrink: 0;
+    background: #272727;
+}
+
+.for-sale2{
+width: 310px;
+    height: 225px;
+    flex-shrink: 0;
+    background: #272727;
+}
+
+.for-sale3{
+    width: 310px;
+        height: 225px;
+        flex-shrink: 0;
+    background: #272727;
+}
