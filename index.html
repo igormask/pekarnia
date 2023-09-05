@@ -2,175 +2,213 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buns</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;900&family=Italiana&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <!-- header -->
     <header class="header">
-        <nav>
-            <ul class="header-menu">
-                <li class="main-menu"><a href="">About us</a></li>
-                <li class="main-menu"><a href="">Delivery</a></li>
-                <li class="main-menu"><a href="">Menu</a></li>
-                <li class="main-menu"><a href="">Contacts</a></li>
-                <li class="main-menu"><a href="">Reviews</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="header-nav">
+                <ul class="header-menu">
+                    <li class="header-item"><a href="" class="header-link">About us</a></li>
+                    <li class="header-item"><a href="" class="header-link">Delivery</a></li>
+                    <li class="header-item"><a href="" class="header-link">Menu</a></li>
+                    <li class="header-item"><a href="" class="header-link">Contacts</a></li>
+                    <li class="header-item"><a href="" class="header-link">Review</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main class="hero-section">
+
+    <main>
+        <!-- hero -->
         <section class="hero">
-            <h1>TRADITIONAL ARTISAX BAKERY</h1>
+            <div class="container">
+                <h1 class="hero-title">TRADITIONAL ARTISAX BAKERY</h1>
+                <p class="hero-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer
+                    took a galley of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also
+                    the leap into
+                    electronic typesetting, remaining essentially unchanged.</p>
+                <button type="button" class="hero-btn">SHOP NOW</button>
+                <ul class="hero-list">
+                    <li class="hero-item"><img src="./img/hero-1.png" width="162" alt="" class="hero-list-img">
+                        <div class="hero-box">
+                            <span class="hero-list-taim">$8.00(kg)</span>
+                            <h3 class="hero-list-title">American Cockie</h3>
+                            <button type="button" class="hero-list-btn">BUY</button>
+                        </div>
+                    </li>
+                    <li class="hero-item"><img src="./img/hero-2.png" width="215" alt="" class="hero-list-img">
+                        <div class="hero-box">
+                            <span class="hero-list-taim">$4.00</span>
+                            <h3 class="hero-list-title">Crushed with
+                                chockolate</h3>
+                            <button type="button" class="hero-list-btn">BUY</button>
+                        </div>
+
+                    </li>
+                    <li class="hero-item"><img src="./img/menu-7.png" width="235" alt="" class="hero-list-img">
+                        <div class="hero-box">
+                            <span class="hero-list-taim">For
+                                piece
+                                $4.00</span>
+                            <h3 class="hero-list-title">Blackberry pie</h3>
+                            <button type="button" class="hero-list-btn">BUY</button>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="hero-title">
-            <p class="title">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only
-                five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged.
-            </p>
+        <!-- Menu -->
+        <section class="menu">
+            <div class="container">
+                <h2 class="menu-title">Menu</h2>
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="./img/menu-1.png" alt="" class="menu-list-img" width="294">
+                        <div class="menu-box">
+                            <h3 class="menu-list-title">Breads</h3>
+                            <button type="button" class="menu-btn">Order</button>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <div class="menu-box">
+                            <h3 class="menu-list-title">Bekary</h3><button type="button" class="menu-btn">Order</button>
+                        </div>
+                    </li>
+
+
+                    <li class="menu-item">
+                        <h3 class="menu-list-title">Cookes&Pretzels</h3><button type="button"
+                            class="menu-btn">Order</button>
+                    </li>
+                    <li class="menu-item">
+                        <!-- <img src="./img/menu-4.png" alt="" class="menu-list-img"> -->
+                        <h3 class="menu-list-title">Coockies&Pretzels</h3><button type="button"
+                            class="menu-btn">Order</button>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <button class="hero-button">
-                SHOP NOW
-            </button>
-            <ul class="menu-sale">
-                <li class="for-sale1">
-                    <img src="./img/Rectangle 4.jpg" alt="" /><span>$8.00(kg)</span>
-                    <p>American Cockie</p>
-                    <button>BUY</button>
-                </li>
-                <li class="for-sale2">
-                    <img src="" alt="" /><span>$4.00</span>
-                    <p>Crushed with chockolate</p>
-                    <button>BUY</button>
-                </li>
-                <li class="for-sale3">
-                    <img src="" alt="" /><span>For piece $4.00</span>
-                    <p>Blackberry pie</p>
-                    <button>BUY</button>
-                </li>
-            </ul>
-        </section>
-        <!-- секція меню -->
-        <section>
-            <h2>Menu</h2>
-            <ul>
-                <li>
-                    <img src="" alt="" />
-                    <h3>Breads</h3>
-                    <button type="button">Order</button>
-                </li>
-                <li>
-                    <img src="" alt="" />
-                    <h3>Bekary</h3>
-                    <button type="button">Order</button>
-                </li>
-                <li>
-                    <img src="" alt="" />
-                    <h3>Cokes&Pretzels</h3>
-                    <button type="button">Order</button>
-                </li>
-                <li>
-                    <img src="" alt="" />
-                    <h3>Coockies&Pretzels</h3>
-                    <button type="button">Order</button>
-                </li>
-            </ul>
-        </section>
-        <!-- наші переваги -->
-        <section>
-            <h2>Quality our bekary</h2>
-            <ul>
-                <li>
-                    <img src="" alt="" />
-                    <ol>
-                        <li>1.Flour with fresh wheat</li>
-                        <li>2.New drozzhi</li>
-                        <li>3.Fresh eggs</li>
-                        <li>4.Water from the well</li>
+        <!-- Quality -->
+        <section class="quality">
+            <div class="container">
+                <h2 class="quality-title">Quality our bekary</h2>
+                <ul class="quality-list">
+                    <li class="quality-item"><img src="./img/menu-1.png" alt="" class="quality-list-img">
+                        <ol class="quality-item-list">
+                            <li class="quality-item-number">1.Flour with fresh wheat
+                            <li class="quality-item-number">2.New drozzhi</li>
+                            <li class="quality-item-number">3.Fresh eggs</li>
+                            <li class="quality-item-number">4.Water from the well</li>
+                    </li>
                     </ol>
-                </li>
-                <li>
-                    <img src="" alt="" />
-                    <ol>
-                        <li>1.Flour with fresh wheat</li>
-                        <li>2.New drozzhi</li>
-                        <li>3.Fresh eggs</li>
-                        <li>4.Water from the well</li>
+                    </li>
+                    <li class="quality-item"><img src="./img/menu-2.png" alt="" class="quality-list-img">
+                        <ol class="quality-item-list">
+                            <li class="quality-item-number">1.Flour with fresh wheat
+                            <li class="quality-item-number">2.New drozzhi</li>
+                            <li class="quality-item-number">3.Fresh eggs</li>
+                            <li class="quality-item-number">4.Water from the well</li>
+                    </li>
                     </ol>
-                </li>
-                <li>
-                    <img src="" alt="" />
-                    <ol>
-                        <li>1.Flour with fresh wheat</li>
-                        <li>2.New drozzhi</li>
-                        <li>3.Fresh eggs</li>
-                        <li>4.Water from the well</li>
+                    </li>
+                    <li class="quality-item"><img src="./img/hero-3.png" alt="" class="quality-list-img">
+                        <ol class="quality-item-list">
+                            <li class="quality-item-number">1.Flour with fresh wheat
+                            <li class="quality-item-number">2.New drozzhi</li>
+                            <li class="quality-item-number">3.Fresh eggs</li>
+                            <li class="quality-item-number">4.Water from the well</li>
+                    </li>
                     </ol>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <!-- наша робота -->
-        <section>
-            <h2>Why TRADITIONALARTISAX BAKERY ?</h2>
-            <ul>
-                <li>
-                    <img src="" alt="" />
-                    <h3>Order at home</h3>
-                </li>
-                <li>
-                    <img src="" alt="" />
-                    <h3>Fresh food</h3>
-                </li>
-                <li>
-                    <img src="" alt="" />
-                    <h3>Speed Delivery 24 h</h3>
-                </li>
-            </ul>
+        <!-- advantages -->
+        <section class="advantages">
+            <div class="container">
+                <h2 class="advantages-title">Why TRADITIONAL ARTISAN BAKERY?</h2>
+                <ul class="advantages-list">
+                    <li class="advantages-item"><img src="./img/advantages-1.png" alt="">
+                        <p class="advantages-text">Order at home</p>
+                    </li>
+                    <li class="advantages-item"><img src="./img/advantages-2.png" alt="">
+                        <p class="advantages-text">Fresh food</p>
+                    </li>
+                    <li class="advantages-item"><img src="./img/advantages-3.png" alt="">
+                        <p class="advantages-text">Speed Delivery 24 h</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <!-- контати -->
-        <section>
-            <h2>Where</h2>
-            <div>
-                <div><img src="" alt="" /></div>
-                <div>
-                    <h3>How</h3>
-                    <a href="+38 055 123 13 12"></a>
-                    <a href="">Tik tok.:@TR.Bekary</a>
-                    <a href="">Inst:@TR.Bekary</a>
-                </div>
-                <div>
-                    <h3>Whean</h3>
-                    <span>with 8:30 to 20:30</span>
+        <!--contacts  -->
+        <section class="contacts">
+            <div class="container">
+                <h2 class="contacts-title">Where</h2>
+                <div class="contacts-box">
+                    <img src="./img/karta.png" alt="" class="contacts-img">
+                    <address class="address">
+                        <h3 class="contacts-title-add">How</h3>
+                        <a href="tel:+380551231312" class="contacts-link">+38 055 123 13 12</a>
+                        <a href="" class="contacts-link">Tik tok.:@TR.Bekary</a>
+                        <a href="" class="contacts-link">Inst:@TR.Bekary</a>
+                    </address>
+                    <div>
+                        <h3 class="contacts-title-add">When</h3>
+                        <p class="contacts-text">with 8:30 to 20:30</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-        <h2>TRADITIONAL ARTISAX BAKERY</h2>
-        <span> We want be helthy </span>
-        <ul>
-            <li>
-                <h3>About</h3>
-                <p>About us Features News & Blog</p>
-            </li>
-            <li>
-                <h3>Movement</h3>
-                <p>What Eatly Support Us</p>
-            </li>
-            <li>
-                <h3>Company</h3>
-                <p>Why Eatly Capital Securaty</p>
-            </li>
-        </ul>
-        <p>2022 Eatly.All right riserved.</p>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <h2 class="footer-title">TRADITIONAL
+                    ARTISAX BAKERY</h2>
+                <span class="footer-span">We want be helthy</span>
+            </div>
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <h3 class="footer-item-title">About</h3>
+                    <p class="footer-item-text">About us
+                        Features
+                        News & Blog</p>
+                </li>
+                <li class="footer-item">
+                    <h3 class="footer-item-title">Movement</h3>
+                    <p class="footer-item-text">What Eatly
+                        Support Us</p>
+                </li>
+                <li class="footer-item">
+                    <h3 class="footer-item-title">Company</h3>
+                    <p class="footer-item-text">Why Eatly
+                        Capital
+                        Securaty</p>
+                </li>
+            </ul>
+            <div class="box-rights">
+                <p class="footer-rights">@2022 Eatly.All right riserved.</p>
+            </div>
+
+        </div>
     </footer>
 </body>
 
