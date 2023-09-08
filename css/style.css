@@ -192,6 +192,9 @@ img {
 
 /* menu */
 .menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1431px;
     padding-top: 21px;
     padding-bottom: 70px;
     background-color: var(--background-color);
@@ -262,6 +265,9 @@ img {
 
 /* Quality  */
 .quality {
+    margin-left: auto;
+        margin-right: auto;
+        width: 1431px;
     padding-top: 90px;
     padding-bottom: 64px;
     background-color: var(--background-color);
