@@ -542,7 +542,7 @@ body.show-modal .modal {
 }
 
 .input-modal:focus-within{
-    border: 1px solid blue;
+    border: 1px solid gray;
 }
 
 .input-modal::placeholder{
@@ -586,4 +586,5 @@ body.show-modal .modal {
 
 .modal-jpg{
     align-self: center;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
